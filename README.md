@@ -39,4 +39,4 @@ Through this process, out-of-distribution data can be filtered out in two stages
 
 ## Reference
 
-The code is partially borrowed by [MOODCat]([https://github.com/Seung-Hun-Lee/DRANet](https://github.com/cure-lab/MOODCat))
+The code is partially borrowed by [MOODCat](https://github.com/cure-lab/MOODCat)
