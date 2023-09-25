@@ -22,14 +22,11 @@ zero accuracy : 97.1178
 else accuracy : 97.0950,
 
 
-## Domain Adaption Result
-CT -> MR -> CT
-
-![image](https://github.com/sungjj/Volumetric-Unsupervised-Domain-Adaptation-for-Medical-Image-Segmentation/assets/136042172/a3034672-9631-431a-8d67-4c5f331a60fd)
-
-MR -> CT -> MR
-
-![image](https://github.com/sungjj/Volumetric-Unsupervised-Domain-Adaptation-for-Medical-Image-Segmentation/assets/136042172/0d034bcc-18cc-4921-aecb-0f9b4f847320)
+## Points that can be improved
+![image](https://github.com/sungjj/OOD_MNIST/assets/136042172/ef4ce5c8-f481-4580-99eb-4c31ad44d74a)
+The latent vector of VAE can be used for classification
+![image](https://github.com/sungjj/OOD_MNIST/assets/136042172/f353dee9-05ff-4da7-b335-89322bbd329d)
+After the classification, we can discriminate whether the image corresponds to the label through a conditional discriminator. If it doesn’t, it is classified as out-of-distribution data.
 
 
 ## Reference
