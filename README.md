@@ -24,8 +24,11 @@ else accuracy : 97.0950,
 
 ## Points that can be improved
 ![image](https://github.com/sungjj/OOD_MNIST/assets/136042172/ef4ce5c8-f481-4580-99eb-4c31ad44d74a)
+
 The latent vector of VAE can be used for classification
+
 ![image](https://github.com/sungjj/OOD_MNIST/assets/136042172/f353dee9-05ff-4da7-b335-89322bbd329d)
+
 After the classification, we can discriminate whether the image corresponds to the label through a conditional discriminator. If it doesn’t, it is classified as out-of-distribution data.
 
 
