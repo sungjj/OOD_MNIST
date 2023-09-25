@@ -19,6 +19,8 @@ Out-of-distribution : 0
 
 
 ## OOD detection Result
+alpha: 1.5 beta: 0.95
+
 zero accuracy : 97.1178
 
 else accuracy : 97.0950,
