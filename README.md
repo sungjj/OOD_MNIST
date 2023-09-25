@@ -4,6 +4,8 @@ Mismatch under Masking by Yijun Yang, Ruiyuan Gao, and Qiang Xu](https://www.ecv
 
 This project performs Out-Of-Distribution (OOD) detection utilizing the main method described in the above paper.
 
+The current goal is to enhance this method through additional research.
+
 ## Dataset
 MNIST
 
@@ -31,6 +33,7 @@ The latent vector of VAE can be used for classification
 
 After the classification, we can discriminate whether the image corresponds to the label through a conditional discriminator. If it doesn’t, it is classified as out-of-distribution data.
 
+Through this process, out-of-distribution data can be filtered out in two stages.
 
 ## Reference
 
